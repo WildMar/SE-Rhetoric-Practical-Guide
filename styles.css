@@ -32,6 +32,7 @@ img {
   flex-direction: column;
   padding: 2rem;
   height: 100%;
+  line-height: 2rem;
 }
 
 .code-genre {
@@ -94,4 +95,25 @@ img {
 
 .appeal-title {
   font-size: larger;
+}
+
+h2 {
+  font-size: 2rem;
+  border-style: solid;
+  border-top: 0px;
+  border-color: #5d2a42;
+  border-left: 0px;
+  border-right: 0;
+  border-width: 5px;
+  border-radius: 0.25rem;
+  /* background: linear-gradient() */
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  color: #fb6376;
+}
+h4 {
+  font-style: italic;
 }
