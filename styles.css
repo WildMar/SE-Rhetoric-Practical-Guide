@@ -4,6 +4,9 @@ html {
   padding: 0;
   font-size-adjust: 0.6;
 }
+a {
+  font-size: smaller;
+}
 
 body {
   background-color: #fff9ec;
