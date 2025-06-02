@@ -69,3 +69,24 @@ img {
 .code-review-image-block {
   justify-self: center;
 }
+
+.appeals-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appeals-segment {
+  max-width: 30%;
+  background-color: #fb6376;
+  color: #fff9ec;
+  border-radius: 1rem;
+  padding: 2rem;
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.appeal-title {
+  font-size: larger;
+}
