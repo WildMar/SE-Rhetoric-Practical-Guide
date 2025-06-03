@@ -55,12 +55,10 @@ img {
 }
 .code-image-block {
   border-radius: 1rem;
-
   flex: 1;
   max-width: 40%;
   overflow-y: auto;
   padding-left: 1rem;
-  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 .code-image {
