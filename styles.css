@@ -142,3 +142,9 @@ img {
 h3 {
   font-size: 1.5rem;
 }
+
+.citations {
+  /* For hanging indents in citations */
+  text-indent: -2rem;
+  padding-left: 2rem;
+}
