@@ -16,6 +16,10 @@
 
 <script>
   function restrictContentHeightToTextContent() {
+    // This is used to restrict the height of the parent "content" element to 
+    // the first child's (text-content) element. Mainly for restricting the 
+    // height of the code sample image so it doesn't throw off the flow of the 
+    // document.
     const content = document.querySelector('.code-genre');
     const child1 = document.querySelector('.text-content-code');
 
