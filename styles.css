@@ -8,6 +8,10 @@ a {
   font-size: smaller;
 }
 
+p {
+  text-indent: 2em;
+}
+
 body {
   background-color: #fff9ec;
   color: #5d2a42;
@@ -72,7 +76,10 @@ img {
   margin-top: 1em;
   font-style: italic;
   font-size: large;
-  text-align: center;
+}
+
+.quote-source {
+  text-align: end;
 }
 
 .code-review-image-block {
@@ -140,6 +147,11 @@ img {
 
 h3 {
   font-size: 1.5rem;
+}
+
+.citations p {
+  /* reset indents for p in citations */
+  text-indent: 0;
 }
 
 .citations {
