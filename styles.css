@@ -8,10 +8,6 @@ a {
   font-size: smaller;
 }
 
-p {
-  text-indent: 2em;
-}
-
 body {
   background-color: #fff9ec;
   color: #5d2a42;
@@ -149,13 +145,16 @@ h3 {
   font-size: 1.5rem;
 }
 
-.citations p {
-  /* reset indents for p in citations */
-  text-indent: 0;
-}
-
 .citations {
   /* For hanging indents in citations */
   text-indent: -2rem;
   padding-left: 2rem;
+}
+
+.genre-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 15rem;
+  width: 100%;
 }
