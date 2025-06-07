@@ -22,20 +22,6 @@
       <p>Software engineers as whole communicate constantly and almost exclusively through writing. READMEs,
         tickets, to review comments, technical documentation, and even code are all examples of rhetorical genres.
       </p>
-      <ul class="genre-list">
-        <li>Code</li>
-        <li>Ticket/task systems</li>
-        <li>README/repository documentation</li>
-        <li>Meetings notes</li>
-        <li>Presentations</li>
-        <li>Technical documentation</li>
-        <li>Chat (Slack, Microsoft Teams, etc.)</li>
-        <li>Release notes</li>
-        <li>Changelogs</li>
-        <li>Project proposals</li>
-        <li>RFCs</li>
-        <li>Pull requests (also known as merge requests, peer review, etc)</li>
-      </ul>
       <p>For the purposes of this article, I will focus solely on the code, and pull
         requests, and why rhetoric is important for the engineering
         community as a whole.</p>
@@ -44,19 +30,12 @@
         <h2 class="topic-header">Code</h2>
         <div class="code-genre">
           <div class="text-content-code">
-            <p>When one thinks of writing and rhetoric, it isn’t often that code comes to mind. However, coding itself
-              is
-              a language and a way of communicating - between person and machine, but also between past and future
-              engineers that may perceive that code.
-            </p>
             <p>
-              The product of software engineers is the code that produces the software you may use day-to-day. Software
-              can be written in a multitude of languages such as Python, Java, C, and many more to count. The code is
-              compiled, interpreted, and the result is either a bug in the code (resulting in errors) or a successful
-              build of their end product. However, within code itself software engineers communicate similar to how one
-              may communicate to another reader of the same book you are reading - texts in the margins, quotes,
-              comments,
-              etc.
+              Code is written in a multitude of languages such as Python, Java, C, and many more. The code is
+              compiled, interpreted, and the result is either a bug in the code or a successful
+              build of the end product. However, within code itself software engineers communicate similar to how one
+              book reader may write to another reader of the same book - texts in the margins known as code
+              comments.
             </p>
             <img src="/assets/code-comment1.png"
               alt="Code comment that says 'Dear maintainer: Once you are done trying to optimize this routine and have realized what a terrible mistake that was, please increment the following counter as a warning to the next guy: total_hours_wasted_here = 42'">
@@ -65,35 +44,30 @@
             <p>
               The rhetoricity of code is further supported in a study by Kevin Brock and Ashley Rose Mehlenbacher in
               which
-              they indicate that code comments serve multiple purposes such as explaining how a piece of code functions,
-              best practices, and efficiency or elegance of that given code block. Through analyzing this, they state
-              “Investigating code comments
-              shows us that conventions and values of a development community are constantly instantiated, challenged,
-              and
-              negotiated via a variety of rhetorical strategies.” (Brock & Mehlenbacher, 2018)
+              they indicate that code comments serve multiple purposes. They state “Investigating code
+              comments shows us that conventions and values of a development community are constantly instantiated,
+              challenged, and negotiated via a variety of rhetorical strategies.” (Brock & Mehlenbacher, 2018)
             </p>
 
             <h3>Tone and Style</h3>
             <p>
-              The tone of code is purely logical and informative. There may be elements of
-              humor, but generally code authors maintain a level of professionalism.
+              The tone of code is logical and informative. There may be elements of
+              humor, but code authors generally maintain a level of professionalism.
               Although a block of code may not look like typical English as it lacks typical
               sentence structure, each codebase has a sense of style.
             </p>
             <p>
-              Code is structured in various ways, and is dependent on the language, library or
-              even the team that contributes to it. New engineers will find that most
-              code-bases have specific style requirements, such as using tabs versus spaces,
-              adding a new-line after each function definition, and even the way they name
-              variables (using camelCase vs snake_case, etc). Luckily, there are
-              “code linters” which are tools that, when run, automatically apply these
-              styling rules which are outlined in a configuration file. This way code reviews
-              aren’t spent nitpicking over the code style.
+              The ways in which code is structured is dependent on the language, library or the team that contributes to
+              it. New engineers will find that most code-bases have specific style requirements, such as using tabs
+              versus spaces, adding a new-line after each function definition, and even the way they name
+              variables. Owners of codebases maintain these rigid style rules by
+              using “code linters” which are tools that automatically apply these
+              styling rules which are outlined in a configuration file.
             </p>
             <p>
-              The core elements of code include things such as variables, functions, loops,
+              The core elements of code include variables, functions, loops,
               and comments. Comments within code are the most helpful form of rhetoric amongst
-              software engineers as comments are a way to inform future code authors. They are
+              software engineers as comments are a way to inform, and possibly warn, future code authors. They are also
               used to indicate purpose, as is usually done under a function definition, shown
               in the example to the right.
             </p>
@@ -102,17 +76,10 @@
             <h3>Code Sample</h3>
             <a href="https://github.com/WildMar/Grocking-Math/blob/main/exponential_functions.py">Grocking
               Math/exponential_functions.py by Marina Wilding</a>
-            <img class="code-image" src="/assets/growth_formula.png"
-              alt="code from Marina Wilding's Grocking Math/exponential_functions.py. There is code written in python, and code comments underneath the function definitions that describe what the functions do, what arguments it accepts, and what it returns.">
-            <div class="quote-block">
-              <p>
-                “Investigating code comments shows us that conventions and values of a development community are
-                constantly instantiated, challenged, and negotiated via a variety of rhetorical strategies.”
-              <div class="quote-source">
-                <p><b>- Kevin Brock and Ashley Rose Mehlenbacher, "Rhetorical Genres in Code"</b></p>
-              </div>
-              </p>
-            </div>
+            <img class="code-image" src="/assets/growth_formula.png" alt="code from Marina Wilding's Grocking Math/exponential_functions.py. 
+              There is code written in python, and code comments underneath the function definitions that 
+              describe what the functions do, what arguments it accepts, and what it returns.">
+
           </div>
         </div>
 
@@ -121,53 +88,44 @@
           <div class="appeals-segment">
             <h4 class="appeal-title">Ethos</h4>
             <p>
-              One who is trained in the art of reading other people's code (and it truly is a skill that takes years to
-              master) can distinguish a seasoned software engineer from a novice programmer.
-              The credibility of the code author is indicated by virtue of the fact that they were able to write code.
-              The ways in which this is established is in the way they name variables, how the functions are structured,
-              and the usefulness of the comments therein.
+              The credibility of the code author is indicated by virtue of the fact that they
+              were able to write code. The ways in which this is established is in the way they name variables, how the
+              functions are structured, and the usefulness of the comments therein.
             </p>
           </div>
           <div class="appeals-segment">
             <h4 class="appeal-title">Logos</h4>
-            <p>Code, in its definition, is logical as computers interpret the code to execute instructions. The fact
+            <p>Code is logical as computers interpret the code to execute instructions. The fact
               that the code works at all indicates a straightforward appeal to logic, proving that the logic of the code
               written therein is sound. </p>
           </div>
           <div class="appeals-segment">
             <h4 class="appeal-title">Pathos</h4>
-            <p>In professional settings, these comments purely serve as informational, with no room to appeal to
-              emotion.
-              However, if you take a look
-              at the open source ecosystem you can see that it is filled with a diverse pool of code authors. Open
-              source code is littered with comments that convey humor, fear, respect, frustration, etc.
+            <p>Of all of the elements of code, code comments appeal most to emotion. Open source code is littered with
+              comments that convey humor, fear, respect, frustration, etc.
             </p>
           </div>
         </div>
         <div class="peer-review-genre">
           <h2 class="topic-header">Peer Review</h2>
-          <p>Peer review (also called code review, feedback, etc) is a vehicle for dialog between the code author and
-            another person who is evaluating the code difference for errors, structure, etc. Similar to how an editor
-            may
-            look over a book and comb through grammatical errors and the like. This reviewer can be anyone - a member of
-            the team, contributor, a mentor, or a junior engineer looking to develop their code reading skills.</p>
+          <p>Peer review is a vehicle for dialog between the code author and another person who is evaluating the
+            code difference for errors, structure, etc. Similar to how an editor may look over a book and comb through
+            grammatical errors and the like. This reviewer can be anyone - a member of the team, contributor, a mentor,
+            or a junior engineer looking to develop their code reading skills.</p>
 
-          <p>The ultimate goal of this review is to ensure no buggy code reaches the end product. An ancillary goal is
-            to
-            reinforce best practices and clarity, keeping in mind those in the future who may stumble upon a line of
-            code.
-            One such reviewer may ask themselves: “Does this line of code make sense in isolation? Will I have to dig
-            through the entire codebase for context? Is this even necessary to this task?”.</p>
+          <p>The goal of review is to ensure no buggy code reaches the end product. An ancillary goal is
+            to reinforce best practices and clarity, keeping in mind those in the future who may need to refactor the
+            code. It's important that a reviewer asks themselves questions like: “Does this line of code make sense in
+            isolation? Is the context accessible? Is this change necessary to this task?”.</p>
 
 
           <p>However, as with any form of communication regarding feedback, there is a delicate balance between being an
-            efficient communicator and being an effective social communicator. The peer review process lends to many
+            efficient communicator and navigating the social interaction. The peer review process lends to
+            many
             opportunities for teaching and mentorship within the community due to its inherent vulnerable nature, but
-            can
-            also be an avenue for inhibiting growth.
-            In an article by Kristen Foster-Marks, she states “Tactless comments
-            have the power to discourage new SEs from asking questions, taking risks, and even showing their work to
-            others. Over time, this has negative consequences for both that novice engineer and shipping code.”
+            can also be an avenue for inhibiting growth. In an article by Kristen Foster-Marks, she states “Tactless
+            comments have the power to discourage new SEs from asking questions, taking risks, and even showing their
+            work to others. Over time, this has negative consequences for both that novice engineer and shipping code.”
             (Foster-Marks, 2023)
           </p>
           <div class="code-review-image-block">
@@ -181,14 +139,11 @@
           <h3>Tone and Style</h3>
           <p>
             Peer review messages are often professional, but the tone is driven by the communication style of the one
-            doing
-            the review. It can be blunt and concise, or can be filled with gentle language to encourage the code author.
-            As with tone, the style of a Peer review can vary widely depending on the author of the feedback. A senior
-            engineer can provide in-depth detail on why the code author should change their approach to a line of code,
-            providing diagrams and links to resources backing up their reasoning. This style normally comes from a
-            principle
-            engineer or team lead, who's relationship with the code author is one of teacher and student, mentor and
-            mentee.
+            doing the review. It can be blunt and concise, or can be filled with encouraging language. The style of a
+            peer review can vary widely depending on the author of the feedback. A
+            senior engineer can provide in-depth detail on why the code author should change their approach to a line of
+            code, providing diagrams and links to resources backing up their reasoning. This style normally comes from
+            an engineerwho's relationship with the code author is one of teacher and student or mentor and mentee.
           </p>
           <div class="quote-block">
             <p>
@@ -206,24 +161,22 @@
             <div class="appeals-segment">
               <h4 class="appeal-title">Ethos</h4>
               <p> As with code, the credibility of the author is determined by the level of experience and position
-                within
-                the team (if this is within a team environment). The author can further demonstrate their level of
+                within the team. The author can further demonstrate their level of
                 expertise by providing further detail and mentorship within their message.
               </p>
             </div>
             <div class="appeals-segment">
               <h4 class="appeal-title">Logos</h4>
               <p> The reasoning that the author of the review provides as to why a change should be made or why the
-                given
-                change is a good one appeals to logic, further reinforced by whether or not the code runs (because,
-                remember, sometimes it <em>only</em> works on your machine!).
+                given change is a good one appeals to logic, further reinforced by whether or not the code runs as
+                expected.
               </p>
 
             </div>
             <div class="appeals-segment">
               <h4 class="appeal-title">Pathos</h4>
-              <p> The emotions that peer reviews tend to appeal to are of the persuasive variety. However, as with any
-                form of feedback, it is rife with emotion and tension due to the fear of rejection, or even a fear of
+              <p> The emotions that peer reviews tend to appeal to are of the persuasive variety. As with any
+                form of feedback, it is rife with tension due to the fear of rejection, or even a fear of
                 the possibility of having to rewrite everything from scratch because the engineer misinterpreted the
                 task.
               </p>
@@ -233,36 +186,30 @@
       </div>
       <div class="importance">
         <h2 class="topic-header">Why Rhetoric is Important for Software Engineers</h2>
-        <p> Rhetoric is important for Software Engineers to understand because our success relies on effective
+        <p> Rhetoric is important for Software Engineers to understand because their success relies on effective
           communication. From communicating needs to stakeholders, sharing knowledge among developers in the community,
-          to
-          leaving breadcrumbs for future developers who dare tread on legacy code, Software Engineers utilize rhetoric
-          throughout their careers. Lack of communication leads to dysfunction within the team and the codebase. When a
-          number of engineers (or God forbid the original author of the software) abandon the code, the only thing any
-          future engineers can rely on are the written word, which includes various textual artifacts. Not only is
-          writing
-          and rhetoric important for software engineers to do in their day to day, but it’s even more imperative that
-          they
-          understand how to effectively communicate using these methods.
+          to leaving notes for future developers who dare tread on legacy code, Software Engineers utilize
+          rhetoric
+          throughout their careers. Lack of communication leads to dysfunction within the team and the codebase. When
+          any engineer abandons the code for whatever reason, the only thing any future engineers can rely on is the
+          written word, which includes various textual artifacts. It’s imperative that engineers
+          understand how to effectively communicate using rhetorical strategies and clear writing.
         </p>
         <p>Kristen Foster-Marks, when asked in an interview why she created a workshop for Software Engineers called
           "The Rhetorical Situation", alluded to the less-than-ideal ecosystem of rhetoric within the community. She
           stated "I had been hearing complaints about the pitiable state of software engineers’ “communication skills”,
           both from software engineers themselves, but also those who work alongside them like product owners, product
           designers, documentation specialists, etc. I don’t necessarily think that software engineers as a group have
-          any worse
-          communication skills than the general population, but I did think that offering this workshop would fill at
-          least a perceived need for folks." (2025).
+          any worse communication skills than the general population, but I did think that offering this workshop would
+          fill at least a perceived need for folks." (2025).
         </p>
-        <p>This indicates that additional training in rhetoric and communication could help reduce friction and lead to
-          better coding practices. In the proceedings of ACM on human-computer interaction "Competencies for Code
-          Review",
-          Gonçalves, Çalıklı, Serebrenik, and Bacchelli analyzed software engineers and the relevant competencies
-          utilized
-          in code reviews. They found three core competencies - (technical, social, and personal). They then surveyed
-          the
-          software engineers they were studying, and the results determined "technical" and "social" were most
-          important, with social being broadly recognized as a weakpoint that many engineers desire to improve on. </p>
+        <p>In the proceedings of ACM on human-computer interaction "Competencies for Code
+          Review", Gonçalves, Çalıklı, Serebrenik, and Bacchelli analyzed software engineers and the relevant
+          competencies utilized in code reviews. They found three core competencies - technical, social, and personal.
+          They then surveyed the software engineers in the study, and the results determined "technical" and "social"
+          were most important, with social being broadly recognized as a weakpoint that they desire to improve
+          on.
+        </p>
         <p>
           In their conclusion, the researchers state "The list of competencies and their ranking can be used as an
           alternative way to assess code review performance, design and execute recruitment or training activities, and
@@ -270,9 +217,8 @@
         </p>
         <p>
           With all of that being said, there is a need for greater focus on writing and rhetoric among Software
-          Engineers.
-          I hope this article has helped you understand the various ways Software Engineers communicate, and the
-          importance of writing and rhetoric within this community.
+          Engineers. I hope this article has helped you understand the various ways Software Engineers communicate, and
+          the importance of writing and rhetoric within this community.
         </p>
       </div>
       <div class="works-cited">
@@ -280,18 +226,22 @@
         <div class="citations">
           <p>Brock, K., Mehlenbacher, A. R. "Rhetorical Genres in Code", Journal of Technical Writing and Communication
             Vol. 48(4) 383–411, 2018.</p>
+
+          <p>Foster-Marks, K. <a style="font-size: medium;"
+              href="https://www.kristen-foster-marks.com/post/your-engineers-need-communication-skills-part1">“Your
+              Engineers Need Communication Skills Part 1”</a> , Jul 13, 2023
+          </p>
+          <p>
+            Kristen, Foster-Marks. Personal interview. 3 June 2025.
+          </p>
+          <p>Pavlína Wurzel Gonçalves, Gül Çalıklı, Alexander Serebrenik, and Alberto Bacchelli.,
+            “Competencies for Code Review”, Proceedings of the ACM on human-computer interaction, 2023-04, Vol.7
+            (CSCW1),
+            p.1-33,
+            Article 38.
+          </p>
         </div>
-
-        <p>Foster-Marks, K. <a
-            href="https://www.kristen-foster-marks.com/post/your-engineers-need-communication-skills-part1">“Your
-            Engineers Need Communication Skills Part 1”</a> , Jul 13, 2023
-        </p>
-        <p>
-          Kristen, Foster-Marks. Personal interview. 3 June 2025.
-        </p>
-
       </div>
-    </div>
 </body>
 
 </html>
